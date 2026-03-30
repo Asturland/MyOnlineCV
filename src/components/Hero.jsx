@@ -1,5 +1,5 @@
 import React from 'react'
-import fotoLinkedin from '../assets/Foto_LinkedIn.png';
+import fotoLinkedin from '../assets/Foto_LinkedIn.jpg';
 
 /* SVG warehouse racks rendered as background atmosphere */
 function WarehouseAtmosphere() {
