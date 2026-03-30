@@ -33,7 +33,7 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a
+            <a target='blank'
               href="mailto:ljpx@proton.me"
               className="font-mono text-xs tracking-widest uppercase px-4 py-2 border border-accent text-accent hover:bg-accent hover:text-navy-900 transition-all duration-200 rounded"
             >
