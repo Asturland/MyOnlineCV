@@ -1,5 +1,5 @@
 import React from 'react'
-import fondoRuta from '../assets/FondoCV.png'
+import fotoLinkedin from '../assets/Foto_LinkedIn.png';
 
 /* SVG warehouse racks rendered as background atmosphere */
 function WarehouseAtmosphere() {
@@ -70,7 +70,7 @@ export default function Hero() {
         <div className="relative inline-block mb-8">
           <div className="w-36 h-36 mx-auto rounded-full overflow-hidden border-2 border-accent/60 shadow-[0_0_40px_rgba(79,195,247,0.3)]">
             <img
-              src="./assets/Foto_LinkedIn.png"
+              src={fotoLinkedin} // Usamos la variable, no el string
               alt="Lucas Gutiérrez Prada"
               className="w-full h-full object-cover"
             />
